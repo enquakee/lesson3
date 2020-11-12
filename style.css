@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f3f5;
+    margin-right: 30px;
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.card_image {
+    max-width: 300px;
+    max-height: 300px;
+    ;
+}
+
+.card_button {
+    border: none;
+    background-color: darkgray;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
